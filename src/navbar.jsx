@@ -37,8 +37,8 @@ const Navbar= () => {
 
 
      const scrollF =()=>{
-          if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
-            setFeedBack('Sapap1')
+          if(document.body.scrollTop > 200 || document.documentElement.scrollTop > 200){
+            setFeedBack('Sapap4')
           }else{
             setFeedBack(' ')
           }
@@ -52,8 +52,8 @@ const Navbar= () => {
     <div>
     <div >
       {tr === "/dashboard" ? "":
-        <div className="Header_Div_New_Bg" >
-          <div className={feedBack}>
+        <div className={`Header_Div_New_Bg ${feedBack}`} >
+          <div>
           <div className="header">
             <div>
               

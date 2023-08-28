@@ -6,12 +6,12 @@
  background-color:inherit;
 }
 .Header_Div_New_Bg{
-    background-color:#0d0740;
+    /* background-color:#0d0740; */
     /* box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px; */
-    position: fixed;
+    position: absolute;
     top:0;
     left:0;
-    right:0;
+    width:100%;
     z-index: 6000;
 }
 /* .AffliateBanner{

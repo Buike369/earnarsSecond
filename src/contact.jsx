@@ -12,7 +12,7 @@ const Contact =()=>{
     const [register,setRegister] = useState(false)
 
     return(
-        <div className="About_Dive_Page" style={{    backgroundImage: "linear-gradient(to right, rgba(106, 116, 167, 0.34), rgba(119, 135, 182, 0.95))",paddingTop:"10px"}} >
+        <div className="About_Dive_Page" style={{ paddingTop:"10px"}} >
              <div className="About_Dive_Page1">
 
                <div style={{padding:"0 10px"}}>
@@ -37,7 +37,7 @@ const Contact =()=>{
                            </div> 
                        </div>
                        <p className="monday" style={{fontWeight:"700",fontSize:"18px"}}>Working Hours :</p>
-                       <p className="monday">Mondays to Saturdays (9am to 5pm) (WAT)  </p>
+                       <p className="monday1">Mondays to Saturdays (9am to 5pm) (WAT)  </p>
                      
                    </div>
 

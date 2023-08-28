@@ -706,20 +706,22 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    /* filter: blur(50px); */
 
-    background-color: #0f0c4896;
+    background-color: rgb(16, 9, 70);;
     z-index: 1;
     position: absolute;
+        filter: drop-shadow(2px 4px 59px #332a88);
 
 }
 
 .glowLeft {
-    left: -21%;
+    left: -33%;
     top: 5%;
 }
 
 .glowRight {
-    right: -21%;
+    right: -33%;
     bottom: 5%;
 }
 
@@ -990,6 +992,13 @@
 
     padding: 5px 5px 5px 10px;
 }
+.Qac {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid #2a2864;
+    margin-top: 8px;
+}
 
 .fit:hover {
     color: #5f7ac9
@@ -1227,13 +1236,7 @@
         font-size: 21px;
     }
 
-    .Qac {
-        width: 100%;
-        max-width: 80%;
-        margin: 0 auto;
-        border-bottom: 1px solid #2a2864;
-        margin-top: 8px;
-    }
+    
 
     .UsAbout {
 

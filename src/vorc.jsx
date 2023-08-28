@@ -93,7 +93,7 @@ const Vic = () => {
 
   }
   return (
-    <div className="Cover_BackgroundColor" style={{backgroundImage: "linear-gradient(to right, rgba(106, 116, 167, 0.34), rgba(119, 135, 182, 0.95))"}}>
+    <div className="Cover_BackgroundColor">
   
       {/* mobile view */}
       
@@ -110,7 +110,7 @@ const Vic = () => {
           <li className="VirtualP"  onClick={()=>setShow1("odd")}>Odd Calculator</li>
         </ul>
       </div>
-      <div className="pink">
+      <div className="pink" style={{padding:"2px 5px"}}>
       <div className="Car">
       <select id="cars" name="cars" className="Car2" onChange={onChangeHandler} >
            <option value="ultimate" id={1}>Ultimate Virtual Bet</option>
@@ -127,7 +127,7 @@ const Vic = () => {
       </div>
       </div>
  
-      <div className="New_Month">
+      <div className="New_Month" style={{padding:"2px 15px"}}>
 
      {show1 === "ultimate"? 
         <div className="Enter_Expected_Profit">

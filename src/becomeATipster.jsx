@@ -1,37 +1,40 @@
 import React,{useState} from 'react'
+import "./style/becomeATipster.css"
 
 const BecomeATipster = () => {
 
  const valuesText = [{h2:"Add Tips",text:`Create your tip and it’ll immediately be added to our “today’s tips” database for buyers to purchase.`},{h2:"Bettors buy from you",text:"Once your tip is live we’ll promote it to over 10,000+ bettors.If they purchase tip then you will earn"},{h2:"Get Paid",text:"60% of every Sale is given directly to you. Assuming a bettor buys the minimum bronze membership."}]
   return (
     <div>
-        <div>
-            //section 1
-            <div>
-                <div>
-                    <p>Keep attracting buyers and earn unlimited cash</p>
-                    <h1>Become a Tipster and Earn Money!</h1>
-                    <p>Earn money by selling your tips to help others win! Those tips help bettors place better bets to win more cash.</p>
-                    <div><span>image</span> <p>Keep attracting buyers and earn unlimited cash</p></div>
-                    <div><span>image</span><p>Withdraw your funds any time, any place</p></div>
-                    <div><pan></pan> <p>Earn a stable income with no risk</p></div>
+        <div className=''>
+             <div  className='becomeTip1'>
+            <div className='stable'>
+                <div className='becomeTip2'>
+                    <p className='keep'>Keep attracting buyers and earn unlimited cash</p>
+                    <p className='keep1'>Become a Tipster and <span className='keep1 earnM' > Earn Money!</span></p>
+                    <p className='keep2'>Earn money by selling your tips to help others win! Those tips help bettors place better bets to win more cash.</p>
+                    <div className='stable1 keep3'><img src="/img/check-second.png" alt="" /> <p className='keep4'>Keep attracting buyers and earn unlimited cash</p></div>
+                    <div className='stable1 keep3'><img src="/img/check-second.png" alt="" /><p className='keep4'>Withdraw your funds any time, any place</p></div>
+                    <div className='stable1 keep3'><img src="/img/check-second.png" alt="" /> <p className='keep4'>Earn a stable income with no risk</p></div>
                 </div>
-                 <div>
+                 <div  className='becomeTip3'>
                     <form>
-                        <div>
-                            <div>Register Now</div>
-                            <p>Start Selling Your Tips In Less Than 30 Seconds</p>
-                            <div><input type="email" placeholder="Enter Your email" /></div> 
-                            <div><input type="text" placeholder="User Name" /></div> 
-                            <div><button>Become a Tipster</button></div>
-                            <p>You agree to <span>Tipster Terms </span> & <a href=""> Privacy Policy </a>.</p>
+                        <div className='pay1 jone'>
+                            <div className='gb'>Register Now</div>
+                            <p className='gb1'>Start Selling Your Tips In Less Than 30 Seconds</p>
+                            <div className='gb2'><input type="email" placeholder="Enter Your email" className='gb3' /></div> 
+                            <div className='gb2'><input type="text" placeholder="User Name" className='gb3'/></div> 
+                            <div className='gb2'><button className='gb4'>Become a Tipster</button></div>
+                            <p  className='gb5'>You agree to <a href="#" className='gb6'>Tipster Terms </a> & <a href="#" className='gb6'> Privacy Policy </a>.</p>
                         </div>
                     </form>
                  </div>
             </div>
+            </div>
 
-   // section2
+   
             <div>
+                
                 <div>
                     <div>
                         <img src="" alt="" />
@@ -42,7 +45,7 @@ const BecomeATipster = () => {
                 </div>
             </div>
 
-            //section3
+          
             <div>
                 <div>
                     <div>
@@ -55,7 +58,7 @@ const BecomeATipster = () => {
                     </div>
                 </div>
             </div>
-            //section4
+        
             <div>
                 <div>
                     <div>

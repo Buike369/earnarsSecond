@@ -24,7 +24,7 @@
 .About_paragraph{
 
     /* background-color: #001041; */
-    background-color: #fff;
+    background-color: #171054;
     padding:35px 20px;
     border-radius: 5px;
 
@@ -38,6 +38,7 @@
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 20px;
+    color:#d9d9d9
 }
 
 /* about terms */
@@ -45,12 +46,14 @@
     font-weight: 700;
     font-size: 22px;
     margin-bottom: 8px;
+    color:#fff;
 }
 .termspad{
     padding:10px 15px;
 }
 .conditionsp{
     margin-bottom: 10px;
+    color:#d9d9d9
 }
 .Notepad{
     font-weight: 700;

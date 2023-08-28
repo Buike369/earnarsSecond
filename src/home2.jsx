@@ -373,7 +373,7 @@ useEffect(()=>{
                     <div className="grace">
                         <h1 className="Aka">Navigate the market</h1>
                         {/* <div><span className="homeSpan">Home</span> <span className="homeSpan">Affiliate program</span></div> */}
-                       <p  className="weAre4">confidently with our  <span className="withUpto">premium forecasts<span>.</span></span></p>
+                       <p  className="weAre4">confidently with our  <span className="withUpto">premium forecasts</span></p>
                        <p className='everyWhere' style={{marginBottom:"10px"}}>and unlock your earning potential.</p>
                        {/* <div className='football'>Football, Tennis, Basketball ETC</div> */}
                     </div>
@@ -562,7 +562,7 @@ useEffect(()=>{
             <div className="followerp">Profit</div>
           </div>
 
-          <div className="houseRuMM">View Profile</div>
+          <a href="/view-profile"><div className="houseRuMM">View Profile</div></a>
         </div>
                        </div>
                    )): post1.map((app,id)=>(
@@ -608,7 +608,7 @@ useEffect(()=>{
             <div className="followerp">Profit</div>
           </div>
 
-          <div className="houseRuMM">View Profile</div>
+          <a href="/view-profile"><div className="houseRuMM">View Profile</div></a>
         </div>
                        </div>
                    ))
@@ -711,7 +711,7 @@ useEffect(()=>{
             <div className="followerp">Profit</div>
           </div>
 
-          <div className="houseRuMM">View Profile</div>
+          <a href="/view-profile"><div className="houseRuMM">View Profile</div></a>
         </div>
                        </div> )) :post.map((app,id)=>(
                         // <div className="sport2 cappin yellowC" key={id}>
@@ -773,7 +773,7 @@ useEffect(()=>{
             <div className="followerp">Profit</div>
           </div>
 
-          <div className="houseRuMM">View Profile</div>
+         <a href="/view-profile"> <div className="houseRuMM">View Profile</div></a>
         </div></div>
                         ))}
 
@@ -867,7 +867,7 @@ useEffect(()=>{
             <div className="followerp">Profit</div>
           </div>
 
-          <div className="houseRuMM">View Profile</div>
+         <a href="/view-profile"> <div className="houseRuMM">View Profile</div> </a>
         </div>
                        </div>
                     )):post3.map((app,id)=>(
@@ -930,7 +930,7 @@ useEffect(()=>{
             <div className="followerp">Profit</div>
           </div>
 
-          <div className="houseRuMM">View Profile</div>
+          <a href="/view-profile"><div className="houseRuMM">View Profile</div></a>
         </div>
                        </div>
                     ))}
@@ -1023,7 +1023,7 @@ useEffect(()=>{
             <div className="followerp">Profit</div>
           </div>
 
-          <div className="houseRuMM">View Profile</div>
+         <a href="/view-profile"><div className="houseRuMM">View Profile</div></a>
         </div>
                        </div>
                     )):post4.map((app,id)=>(
@@ -1086,7 +1086,7 @@ useEffect(()=>{
             <div className="followerp">Profit</div>
           </div>
 
-          <div className="houseRuMM">View Profile</div>
+         <a href="/view-profile"> <div className="houseRuMM">View Profile</div></a>
         </div>
                        </div>
                   

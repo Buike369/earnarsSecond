@@ -38,6 +38,7 @@ import AdminLogin from "./adminLogin"
 import Navbar from "./navbar"
 import TipsWallet from "./tipsterWallet";
 import ProfilePageFile from "./profilePage"
+import BecomeATipSter from "./becomeATipster"
 
 import DashboardHome from "./Dashboard/dashboardHome"
 // import { Link, useLocation } from "react-router-dom";
@@ -88,6 +89,7 @@ function App() {
           <Route path="/tipsterWallet" element={<TipsWallet />} />
           <Route path="/userWallet" element={<UsersWallet />} />
           <Route path="/view-profile" element={<ProfilePageFile />} />
+          <Route path="/become-tipster" element={<BecomeATipSter />} />
          
          
          

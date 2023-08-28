@@ -6,21 +6,19 @@
 }
 .Enter_Expected_Profit{
     width:100%;
-    /* max-width:600px; */
+   
     margin:1px auto;
-    /* background-color: #1e2c54; */
-        /* background: linear-gradient(71deg, #383f5691, #3c476ec2, #505e93bf); */
-        background-color: #1e2c54;
+        background-color: #171054;
     padding:10px 15px 20px 15px;
     margin-bottom: 40px;
     border-radius: 5px;
 }
 .addWin{
-    background-color: #40a750;
+    background-color: #04dd1c;
     
 }
 .addWin12{
-    background-color:#cf3e3e;
+    background-color:#d50204;
 }
 .ExposeMass{
     text-align: center;
@@ -140,7 +138,7 @@
     
     
     margin:0 auto 100px auto;
-    background-color: #1e2c54;
+    background-color: #171054;
     
     padding:10px 15px 20px 15px;
     color:#fff;
@@ -305,12 +303,13 @@ margin-bottom: 40px;
 .VirtualP{
 padding:6px 7px;
 font-size: 16px;
-background-color: #1f326b;
+background-color: #453d87;
 border-radius: 3px;
 cursor: pointer;
 }
 .VirtualP:hover{
-    background-color:#001041;
+    background-color:#49499b;
+    color:gold;
     
 }
 

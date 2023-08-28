@@ -1,13 +1,14 @@
 .ParentDivNewHod{
     width:100%;
     padding:20px 10px;
-    max-width: 900px;
+    max-width: 950px;
     margin:0 auto;
 }
 .tipsterProfile{
     font-size: 35px;
     font-weight: 800;
     color:#fff;
+    line-height: 100px;
 }
 .profileCoverDiv{
     border:1px solid #32278b;
@@ -28,14 +29,14 @@
         margin-left: 20px;
     }
 .ImgPicMan{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
 }
 .ImgPicMan1{
     position:absolute;
-    right: -14px;
-    bottom: 42px;
+    right: 0px;
+    bottom: 50px;
 
 }
 .namePad{
@@ -48,6 +49,9 @@
     display:flex;
     align-items: center;
    
+}
+.doM{
+    margin-bottom: 20px;
 }
 .holder2{
     display:flex;
@@ -74,6 +78,30 @@
     display:flex;
     align-items: center;
     justify-content: space-between;
+}
+.Fad{
+    margin-top: 0;
+    width:260px
+}
+.Fad1{
+    margin-top: 15px;
+    border:none;
+    background-color: #434493;
+    color:#fff;
+    border-radius: 5px;
+    padding: 7px 8px;
+    font-size: 16px;
+}
+.follower2h{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.donKing4{
+    margin-top:42px ;
+}
+.jike{
+    top:29%;
 }
 .holder8{
     padding: 2px 10px;
@@ -107,9 +135,125 @@
 .IP1{
     padding: 10px 8px 20px 8px;
     margin-right: 15px;
+    cursor:pointer
 }
 .Above{
     margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.pro1{
+    width:62%;
+}
+.pro2{
+    width:35%;
+}
+.pay1{
+    width:100%;
+    border-radius: 8px;
+    border:1px solid #32278b;
+    padding: 10px 10px;
+    background-color: #221c5a;
+
+}
+.pay2{
+    color:#fff;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+.pay3{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pay4{
+    display:flex;
+    align-items: center;
+}
+.pay5{
+    padding:10px 20px;
+    /* border:1px solid #32278b; */
+    border-radius: 5px;
+
+    background-color: #0d0740;
+    margin-top: 20px;
+}
+.pay6{
+    color:#fff;
+}
+.pay7{
+    color:#adff2f;
+}
+.pay8{
+    border-bottom: 1px solid #434493;
+   margin:20px 0;
+}
+.pay9{
+    color:#fff;
+    text-align: center;
+
+}
+.pay10{
+    padding:5px 10px;
+    background-color:#0d0740 ;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+.pay11{
+    background-color:#4f469b;
+    color:#fff;
+    padding:10px 10px;
+    text-align: center;
+    border-radius: 20px;
+    margin:25px 0 25px 0;
+    cursor: pointer;
+}
+.pay11:hover , .Fad1:hover{
+    background-color: #0d0740;
+    border:1px solid #4f469b;
+    color:gold;
+}
+.boTP{
+   border-bottom: 1px solid #0dff00; 
+}
+.pay12{
+background-color: #4f469b;
+padding:15px 10px;
+margin-top: 20px;
+border-radius: 5px;
+}
+.pay14{
+    margin-left: 20px;
+}
+.pay13{
+color:#adff2f;
+font-weight: 600;
+}
+.pay15{
+    font-weight: 800;
+    font-size: 24px;
+}
+.typo{
+    margin: 20px 0;
+    padding: 20px 10px;
+    border:1px solid #32278b;
+    border-radius: 8px;
+
+}
+.gameP{
+    font-size: 20px;
+    font-weight: 800;
+}
+.Tact{
+    border:0;
+    outline:0;
+    padding:8px 10px;
+    border-radius: 20px;
+    color: #17ef0a;
+        background-color: #96e5a670;
+    margin: 10px 0 20px 0;
 }
 .AC{
    background-color: #fff;

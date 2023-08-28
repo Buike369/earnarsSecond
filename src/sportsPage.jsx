@@ -97,7 +97,7 @@ const SportsPage = () => {
                         {/* <div><span className="homeSpan">Home</span> <span className="homeSpan">Affiliate program</span></div> */}
                        <p  className="weAre4">With Upto <span className="withUpto">50% acurrancy<span>.</span></span></p>
                        <p className='everyWhere'>Everyday is a winning day</p>
-                       <div className='football'>Football, Tennis, Basketball ETC</div>
+                       <div className='football'>Football, Tennis, Basketball etc.</div>
                     </div>
                      <div className="grace"><img src="/img/affiliate-banner.png" className="gracePic" alt="affiliate_banner"/></div>
                      <img src="/img/StarsME.svg" className="headerAffiliateI" alt="affiliate_banner"/>
@@ -120,6 +120,8 @@ const SportsPage = () => {
         </div>
         </div>
         </div>
+
+         <div className="sportPa">
         <div style={{padding:"0px 12px"}}>
         <p className="WhyStart">Why Start Sport Betting</p>
         <div className="ifNi"></div>
@@ -176,6 +178,8 @@ You can also enjoy sports betting anywhere and anytime e.g from the comfort of y
             </div>
         </div>
         </div>
+        </div>
+
         <div className='Ems Ems1'>
           <img src="/img/undrawgoal1.svg" alt="" className='imgFloatSport' />
         </div>
@@ -291,10 +295,13 @@ You can also enjoy sports betting anywhere and anytime e.g from the comfort of y
                 </span>
               </div>
               {show ? (
+                <div>
+                   <div className="Qac"></div>
                 <p className="ILOVEK">
                To register with a sports betting broker,visit any sports bookmarker of your choice and click on their signup button to register with them. You can register
 with more than one broker.
                 </p>
+                </div>
               ) : (
                 ""
               )}
@@ -307,9 +314,12 @@ with more than one broker.
                 </span>
               </div>
               {show1 ? (
+                <div>
+                   <div className="Qac"></div>
                 <p className="ILOVEK">
                Not knowing about sports bettng doesn't stops you from making money from sports betting. All you need to know is how to place bet using our coupon code for each prediction we make. Watch our tutorial video on how to bet to give you the required knowledge you need to place a bet.
                 </p>
+                </div>
               ) : (
                 ""
               )}
@@ -322,9 +332,12 @@ with more than one broker.
                 </span>
               </div>
               {show2 ? (
+                <div>
+                   <div className="Qac"></div>
                 <p className="ILOVEK">
                  To fund your account on earnars.com after registeration, go to "My Wallet" section and click on deposit and enter the amount you want to fund your account with, This will redirect you to flutter wave secure payment channel that gives you various payment options. To fund your account with a sport betting book maker watch the tutorial video.
                 </p>
+                </div>
               ) : (
                 ""
               )}
@@ -337,10 +350,13 @@ with more than one broker.
                 </span>
               </div>
               {show3 ? (
+                <div>
+                   <div className="Qac"></div>
                 <p className="ILOVEK">
               
 We do not manage users funds or bet for any user, we only forecast/predicts games. Users are responsible for  any amount of money they wish to stake with the bookies they register with.
                 </p>
+                </div>
               ) : (
                 ""
               )}
@@ -353,9 +369,12 @@ We do not manage users funds or bet for any user, we only forecast/predicts game
                 </span>
               </div>
               {show4 ? (
+                <div>
+                   <div className="Qac"></div>
                 <p className="ILOVEK">
                  Your are responsible for any amount you wish to bet on any bookmaker portal but we advice users to risk between 1% to 5% of their capital on any game.
                 </p>
+                </div>
               ) : (
                 ""
               )}
@@ -368,9 +387,12 @@ We do not manage users funds or bet for any user, we only forecast/predicts game
                 </span>
               </div>
               {show5 ? (
+                <div>
+                   <div className="Qac"></div>
                 <p className="ILOVEK">
               We do not guarantee any prediction made by our experts, however we guarantee the refund of users subscription fees if at the end of any particular month they dont turn profit by following all our prediction. This refund policy is subject to our "Refund Policy Terms and Condition"
                 </p>
+                </div>
               ) : (
                 ""
               )}
