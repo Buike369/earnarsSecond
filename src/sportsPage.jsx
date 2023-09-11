@@ -106,6 +106,18 @@ const SportsPage = () => {
                  </div>
 
 <div className='sportsPageColorBg'>
+
+<div  className='MaratT'>
+    <div className='AboutM'>
+        <p className='OurService'>Project Expertise</p>
+         <p className='Pa'>With a finger on the pulse of modern technology trends, we excel in creating specialized project-based websites. Whether you're venturing into the world of ecommerce, aiming to launch  an online store etc, we have the expertise to deliver innovative solutions that drive results.</p>
+    </div>
+    {/* <div> */}
+        <img src="/img/about10.svg" alt="" className='AboutM'/>   
+         {/* </div> */}
+</div>
+
+
         <div className="MakingMoney">
         Making Money Daily on <span className="forexy">SPORTS</span> trading is as easy as following our daily expert predictions
         </div>
@@ -276,7 +288,7 @@ You can also enjoy sports betting anywhere and anytime e.g from the comfort of y
             <div className="firey1">
             <iframe className="pn"  width="100%" height="100%" src="https://www.youtube.com/embed/mgXNWBDOD8w" title="SPORTYBET TUTORIAL: HOW TO DEPOSIT AND WITHDRAW MONEY FROM YOUR SPORTYBET ACCOUNT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <div className="firey1">
+            <div className="firey1 pn4">
             <iframe className="pn"  width="100%" height="100%" src="https://www.youtube.com/embed/38TXXWrUrdQ" title="Sportybet Tips - How To Place Bets On Sportybet | Bet unlocked" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>

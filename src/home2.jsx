@@ -313,7 +313,7 @@ useEffect(()=>{
 },[post1])
 
   useEffect(()=>{
-    AOS.init();
+    AOS.init({once: true});
   },[])
   
 
@@ -1175,33 +1175,32 @@ useEffect(()=>{
           <div className="youpin">
 
               
-
                  <div className="topPrediction">Top Predictions</div>
               <div className="UponT">
                 <div className="sportPetNe">Sports Predictions</div>
                
-              
+           <div className="adaba"> 
        <div role="region" aria-labelledby="caption" tabindex="0">
-  <table className='linema'>
+  <table   style={{borderCollapse: "collapse"}}  className='linema '>
    
     <thead>
       <tr>
-        <th style={{width:"70px"}}>Date</th>
+        <th style={{width:"100px"}}>Date</th>
         <th style={{width:"70px"}}>Time</th>
          <th style={{width:"150px"}}>League</th>
-        <th style={{width:"150px"}}>Match</th>
-        <th style={{width:"150px"}}>Tips</th>
-        <th style={{width:"150px"}}>Odd</th>
-        <th style={{width:"150px"}}>Stake</th>
-        <th style={{width:"150px"}}>Profits</th>
+        <th style={{width:"180px"}}>Match</th>
+        <th style={{width:"180px"}}>Tips</th>
+        <th style={{width:"60px"}}>Odd</th>
+        <th style={{width:"80px"}}>Stake</th>
+        <th style={{width:"80px"}}>Profits</th>
                 
       </tr>
     </thead>
     <tbody>
        
        
-      <tr  className="ADDTimeDbg ">
-        <th className=" ADDTimeDbg">Jan 20</th>
+      <tr  className="ADDTimeDbg " >
+        <th className=" ADDTimeDbg">09/11/2023</th>
         <td>13:00pm</td>
           <td>English</td>
         <td>Eng v Ban Asia Cup T20</td>
@@ -1212,7 +1211,7 @@ useEffect(()=>{
         
       </tr>
       <tr  className="ADDTimeDbg ">
-        <th className="ADDTimeDbg">Jan 20</th>
+        <th className="ADDTimeDbg">09/11/2023</th>
         <td>13:00am</td>
           <td>English</td>
         <td>Eng v Ban Asia Cup T20</td>
@@ -1230,19 +1229,21 @@ useEffect(()=>{
     </tbody>
   </table>
 </div>
+</div> 
  <div className="seeMoreDivLink"><button className="SeeMoreInfo">See More</button></div>
            <div className="sportPetNe gapUp">Forex Predictions</div>
+           <div className="adaba">
       <div role="region" aria-labelledby="caption" tabindex="0">
-  <table className='linema'>
+  <table className='linema' style={{borderCollapse: "collapse"}}>
    
     <thead>
       <tr>
-        <th style={{width:"50px"}}>Date</th>
-        <th style={{width:"100px"}}>Pair</th>
+        <th style={{width:"100px"}}>Date</th>
+        <th style={{width:"180px"}}>Pair</th>
          <th style={{width:"100px"}}>Condition</th>
-        <th style={{width:"150px"}}>Entry</th>
-        <th style={{width:"150px"}}>Take Profit</th>
-        <th style={{width:"150px"}}>Stop Loss</th>
+        <th style={{width:"100px"}}>Entry</th>
+        <th style={{width:"100px"}}>Take Profit</th>
+        <th style={{width:"100px"}}>Stop Loss</th>
         
                 
       </tr>
@@ -1251,7 +1252,7 @@ useEffect(()=>{
        
        
       <tr  className="ADDTimeDbg ADDTimeDbg22">
-        <th className=" ADDTimeDbg">Jan 20</th>
+        <th className=" ADDTimeDbg">09/11/2023</th>
         <td>GBP/USD</td>
           <td>Long(buy)</td>
         <td>1.678787</td>
@@ -1277,20 +1278,22 @@ useEffect(()=>{
      
     </tbody>
   </table>
+</div>
 </div>
  <div className="seeMoreDivLink"><button className="SeeMoreInfo">See More</button></div>
 <div className="sportPetNe gapUp">Cryptocurrency Predictions</div>
+ <div className="adaba">
       <div role="region" aria-labelledby="caption" tabindex="0">
-  <table className='linema'>
+  <table className='linema' style={{borderCollapse: "collapse"}} >
    
     <thead>
       <tr>
-        <th style={{width:"50px"}} className="emeka">Date</th>
-        <th style={{width:"100px"}}>Pair</th>
+        <th style={{width:"100px"}} className="emeka">Date</th>
+        <th style={{width:"180px"}}>Pair</th>
          <th style={{width:"100px"}}>Condition</th>
-        <th style={{width:"150px"}}>Entry</th>
-        <th style={{width:"150px"}}>Take Profit</th>
-        <th style={{width:"150px"}}>Stop Loss</th>
+        <th style={{width:"100px"}}>Entry</th>
+        <th style={{width:"100px"}}>Take Profit</th>
+        <th style={{width:"100px"}}>Stop Loss</th>
         
                 
       </tr>
@@ -1299,7 +1302,7 @@ useEffect(()=>{
        
        
       <tr  className="ADDTimeDbg ADDTimeDbg22">
-        <th className=" ADDTimeDbg">Jan 20</th>
+        <th className=" ADDTimeDbg">09/11/2023</th>
         <td>GBP/USD</td>
           <td>Long(buy)</td>
         <td>1.678787</td>
@@ -1309,7 +1312,7 @@ useEffect(()=>{
         
       </tr>
       <tr  className="ADDTimeDbg ADDTimeDbg22">
-        <th className="ADDTimeDbg">Jan 20</th>
+        <th className="ADDTimeDbg">09/11/2023</th>
         <td>GBP/USD</td>
           <td>Short(buy)</td>
         <td>1.678787</td>
@@ -1326,16 +1329,18 @@ useEffect(()=>{
     </tbody>
   </table>
 </div>
+</div>
     <div className="seeMoreDivLink"><button className="SeeMoreInfo">See More</button></div>
 <div className="sportPetNe gapUp">Binary Predictions</div>
+ <div className="adaba">
       <div role="region" aria-labelledby="caption" tabindex="0">
-  <table className='linema'>
+  <table className='linema' style={{borderCollapse: "collapse"}} >
    
     <thead>
       <tr>
-        <th style={{width:"50px"}}>Date</th>
-        <th style={{width:"100px"}}>Pair</th>
-         <th style={{width:"150px"}}>Condition</th>
+        <th style={{width:"33%"}}>Date</th>
+        <th style={{width:"33%"}}>Pair</th>
+         <th style={{width:"33%"}}>Condition</th>
        
                 
       </tr>
@@ -1344,7 +1349,7 @@ useEffect(()=>{
        
        
       <tr  className="ADDTimeDbg ADDTimeDbg22">
-        <th className=" ADDTimeDbg">Jan 20</th>
+        <th className=" ADDTimeDbg">09/11/2023</th>
         <td>GBP/USD</td>
           <td>Long(buy)</td>
         
@@ -1352,7 +1357,7 @@ useEffect(()=>{
         
       </tr>
       <tr  className="ADDTimeDbg ADDTimeDbg22">
-        <th className="ADDTimeDbg">Jan 20</th>
+        <th className="ADDTimeDbg">09/11/2023</th>
         <td>GBP/USD</td>
           <td>Short(buy)</td>
        
@@ -1366,6 +1371,7 @@ useEffect(()=>{
      
     </tbody>
   </table>
+</div>
 </div>
  <div className="seeMoreDivLink"><button className="SeeMoreInfo">See More</button></div>
 

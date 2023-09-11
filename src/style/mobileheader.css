@@ -73,6 +73,7 @@
 
   backdrop-filter: blur(239px);
   top: 0;
+  left:0;
  
   z-index: 1000;
 }

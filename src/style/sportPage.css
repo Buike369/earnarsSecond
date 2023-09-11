@@ -275,12 +275,32 @@
 
 .everyDay {
     width: 100%;
-    max-width: 800px;
+    max-width: 625px;
     padding: 0 8px;
     /* text-align: center; */
     color: #dddfe3;
     margin: 0 auto 40px auto;
 
+}
+.MaratT {
+    display: flex;
+    width: 100%;
+    max-width: 1100px;
+    margin: 50px auto 0 auto;
+}
+
+.AboutM {
+    width: 50%
+}
+.Pa {
+    color: #aba4a4;
+    line-height: 25px;
+}
+.OurService {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .wemerYt {
@@ -393,6 +413,9 @@
     gap: 15px;
     margin-bottom: 15px;
 }
+ .pn, .pn4 {
+     border-radius: 5px;
+ }
 
 .everyday {
     width: 50px
@@ -556,9 +579,6 @@ scrollbar-color: #007 #bada55 !important;
         border-radius: 5px;
     }
 
-    .pn {
-        border-radius: 5px;
-    }
 
     .EasyTim {
         height: 100%;
